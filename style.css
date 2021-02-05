@@ -1,3 +1,62 @@
-h1{
-color: purple;
+header > div{
+  color:#15615D;
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+h1,h2,h3{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color:white;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+/*
+#aboutme{
+  padding: 40px 20px 40px 20px;
+  background-color: #ffecd1
+}*/
+
+footer{
+  background-color: #15615D;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  height: 50px;
+  padding: 10px;
+}
+
+.blankspace{
+  padding: 20px;
+  background-color:black;
+} //creates blank space between sections
+
+body{
+  background-color:black;
+  color: white;
+}
+
+p{
+  font-family: 'Quicksand';
+  font-weight: 300;
+}
+
+hr{
+  color: white;
+}
+
+html{
+  margin: 10px;
 }
