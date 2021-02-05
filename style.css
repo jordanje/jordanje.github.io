@@ -58,7 +58,7 @@ body{
   color: white;
 }
 
-p{
+p, ul, ol{
   font-family: 'cardo', sans-serif;
   font-weight: 300;
   font-size: 14pt;
