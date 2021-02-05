@@ -23,11 +23,7 @@ img{
   margin-right: auto;
   width: 60%;
 }
-/*
-#aboutme{
-  padding: 40px 20px 40px 20px;
-  background-color: #ffecd1
-}*/
+
 
 footer{
   background-color: #15615D;
@@ -41,7 +37,7 @@ footer{
 .blankspace{
   padding: 20px;
   background-color:black;
-} //creates blank space between sections
+} 
 
 body{
   background-color:black;
