@@ -1,11 +1,16 @@
+body{
+  background-color: #C1B4AE;
+}
+
 header > div{
-  color:#15615D;
+  color: #92140C;
   text-align:center;
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 5px;
   font-size: 20pt;
   line-height: 0.8;
 }
+
 h1,h2,h3{
   text-align: center;
   font-family: 'cardo', sans-serif;
@@ -13,18 +18,28 @@ h1,h2,h3{
   letter-spacing: 2px;
 }
 
-h2{
-  font-size: 30pt;
-}
-h3{
+h2, h3{
+  color: #353238;
   font-size: 20pt;
 }
+nav{
+padding: 5px;
+}
+
+nav a{
+text-decoration: none;
+margin: 0 10px 0 0;
+}
+
 a:link{
-  color: white;
+  color: black;
 }
+
 a:visited{
-  color:white;
+  color: black;
 }
+
+
 
 img{
   display: block;
@@ -32,15 +47,17 @@ img{
   margin-right: auto;
   width: 100%;
   border-radius: 10px;
+  filter: grayscale(100);
 }
-/*
-#aboutme{
-  padding: 40px 20px 40px 20px;
-  background-color: #ffecd1
-}*/
+
+header img{
+  padding: 30px 0 10px 0;
+  width: 90%;
+}
+
 
 footer{
-  background-color: #15615D;
+  background-color: gainsboro;
   text-align: center;
   font-family: 'cardo', sans-serif;
   font-weight: 300;
@@ -48,28 +65,73 @@ footer{
   padding: 10px;
 }
 
-/* add blank space in page*/
-.blankspace{
-  padding: 30px;
-  background-color:black;
+
+
+article{
+  padding: 20px
 }
 
-body{
-  background-color:black;
-  color: white;
-}
 
-p, ul, ol{
+p, ol,ul{
   font-family: 'cardo', sans-serif;
   font-weight: 300;
   font-size: 14pt;
   letter-spacing: 1px;
+  list-style: inherit;
 }
 
-hr{
-  color: white;
-}
 
 main{
-  margin: 20px 400px 20px 400px
+  margin: 10px;
+}
+
+
+.group{
+  display:flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  header img{
+    width: 50%;
+    padding: 40px
+  }
+
+  .main{
+    margin: 10px 150px;
+  }
+}
+
+
+
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 120px;
 }
