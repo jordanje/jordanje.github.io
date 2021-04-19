@@ -1,9 +1,9 @@
 body{
-  background-color: #C1B4AE;
+  background-color: #FFFFFF;
 }
 
 header > div{
-  color: #92140C;
+  color: #FF1B1C;
   text-align:center;
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 5px;
@@ -17,9 +17,8 @@ h1,h2,h3{
   font-weight: 500;
   letter-spacing: 2px;
 }
-
 h2, h3{
-  color: #353238;
+  color: #000000;
   font-size: 20pt;
 }
 nav{
@@ -29,16 +28,16 @@ padding: 5px;
 nav a{
 text-decoration: none;
 margin: 0 10px 0 0;
+font-size:14pt;
 }
 
 a:link{
-  color: black;
+  color: #011638;
 }
 
 a:visited{
-  color: black;
+  color: #011638;
 }
-
 
 
 img{
@@ -50,10 +49,6 @@ img{
   filter: grayscale(100);
 }
 
-header img{
-  padding: 30px 0 10px 0;
-  width: 90%;
-}
 
 
 footer{
@@ -78,6 +73,7 @@ p, ol,ul{
   font-size: 14pt;
   letter-spacing: 1px;
   list-style: inherit;
+  color: #141414;
 }
 
 
@@ -104,11 +100,6 @@ main{
 
   .group {
     flex-direction: row;
-  }
-
-  header img{
-    width: 50%;
-    padding: 40px
   }
 
   .main{
